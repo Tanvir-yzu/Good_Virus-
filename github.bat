@@ -1,5 +1,9 @@
 echo off
-REM  start github repo
+REM GitHub repository management script
+
+echo ===================================
+echo Git Repository Management Script
+echo ===================================
 call git add .
 
 set /p commit_text=Enter the git commit message: 
@@ -14,4 +18,8 @@ if "%origin_name%"=="" (
 ) else (
     call git push origin "%origin_name%"
 )
+echo.
+echo ===================================
+echo Script completed
+echo ===================================
 pause
