@@ -36,6 +36,6 @@ if "%origin_name%"=="" (
 echo.
 
 echo %COLOR_CYAN%===================================%COLOR_RESET%
-echo %COLOR_GREEN%Script completed%COLOR_RESET%
+echo %COLOR_GREEN%Git push successful origin by "%origin_name%" %COLOR_RESET%
 echo %COLOR_CYAN%===================================%COLOR_RESET%
 exit /b
