@@ -38,4 +38,4 @@ echo.
 echo %COLOR_CYAN%===================================%COLOR_RESET%
 echo %COLOR_GREEN%Script completed%COLOR_RESET%
 echo %COLOR_CYAN%===================================%COLOR_RESET%
-pause
+exit /b
